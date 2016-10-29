@@ -5,5 +5,11 @@
   </head>
   <body>
     <audio autoplay loop><source src="python.mp3"></audio>
+    <script>
+      window.onclick = function() {
+        var audio = document.getElementsByTagName('audio')[0];
+        audio.play();
+      }
+    </script>
   </body>
 </html>
